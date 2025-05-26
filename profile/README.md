@@ -16,9 +16,9 @@ A proposta do site é simples: mostrar os dados da forma **mais clara e acessív
 
 ## 🔧 Tecnologias usadas
 
-- **Backend**: Java + Spring + MySQL
-- **Infraestrutura**: Google Cloud
-- **Frontend**: HTML, CSS, JS
+- **Backend**: Java · Spring · MySQL
+- **Infraestrutura**: Google Cloud · Docker
+- **Frontend**: HTML · CSS · JS
 
 ---
 
