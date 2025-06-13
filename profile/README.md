@@ -25,7 +25,7 @@ A proposta do site é simples: mostrar os dados da forma **mais clara e acessív
 ## 💬 Quer ajudar?
 
 - Temos um servidor no Discord para facilitar a comunicação:
-  👉 [https://discord.gg/S4qV6uAD](https://discord.gg/S4qV6uAD)
+  👉 [https://discord.gg/SWyMd4gR](https://discord.gg/SWyMd4gR)
 - Já existem algumas *issues* abertas em um projeto
 - Toda colaboração é bem-vinda, seja com código, revisão, design, testes, ou simplesmente dando feedback
 
