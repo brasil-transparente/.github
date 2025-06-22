@@ -1,8 +1,10 @@
 # Brasil Transparente
 
-Bem vindo ao Brasil Transparente! Esse é um projeto open-source que tem como objetivo trazer mais **transparência aos gastos públicos da União**, e futuramente também dos **estados e municípios**.
+Bem vindo ao Brasil Transparente! Esse é um projeto open-source que tem como objetivo trazer mais **transparência aos gastos públicos da União e dos estados**, e futuramente também dos **municípios**.
 
-A proposta do site é simples: mostrar os dados da forma **mais clara e acessível possível**, sem complicações, para que qualquer pessoa, e não só quem já acompanha ou estuda o tema, possa entender como o dinheiro público está sendo gasto.
+A proposta do site é simples: mostrar os dados da forma **mais clara e acessível possível**, sem complicações, para que qualquer pessoa, e não só quem já acompanha ou estuda o tema, possa entender como o dinheiro público está sendo gasto. 
+
+Para atingir esse objetivo, buscamos **centralizar** dados espalhados em diversos bancos de dados distribuídos entre unidades federativas e poderes diferentes.
 
 ---
 
@@ -25,7 +27,7 @@ A proposta do site é simples: mostrar os dados da forma **mais clara e acessív
 ## 💬 Quer ajudar?
 
 - Temos um servidor no Discord para facilitar a comunicação:
-  👉 [https://discord.gg/SWyMd4gR](https://discord.gg/SWyMd4gR)
+  👉 https://discord.gg/sQbf3bSzt4
 - Já existem algumas *issues* abertas em um projeto
 - Toda colaboração é bem-vinda, seja com código, revisão, design, testes, ou simplesmente dando feedback
 
