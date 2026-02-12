@@ -1,41 +1,151 @@
 # Brasil Transparente
 
-Bem vindo ao Brasil Transparente! Esse é um projeto open-source que tem como objetivo trazer mais **transparência aos gastos públicos da União e dos estados**, e futuramente também dos **municípios**.
+O **Brasil Transparente** é um projeto open-source que consolida e organiza os gastos **efetivamente pagos** pela União em um único lugar.
 
-A proposta do site é simples: mostrar os dados da forma **mais clara e acessível possível**, sem complicações, para que qualquer pessoa, e não só quem já acompanha ou estuda o tema, possa entender como o dinheiro público está sendo gasto. 
+O objetivo é oferecer uma visão clara, estruturada e auditável de como o dinheiro público foi utilizado, reunindo dados que hoje estão distribuídos entre diferentes poderes e portais oficiais.
 
-Para atingir esse objetivo, buscamos **centralizar** dados espalhados em diversos bancos de dados distribuídos entre unidades federativas e poderes diferentes.
-
----
-
-## 📌 Objetivos atuais do projeto
-
-- Melhorar o código já existente
-- Expandir a coleta e visualização de dados para incluir os 26 estados e o DF
-- Tornar o projeto mais acessível para novos colaboradores
+Mais do que visualização, o projeto propõe um modelo consolidado de leitura dos gastos federais.
 
 ---
 
-## 🔧 Tecnologias usadas
+## 🎯 Propósito
 
-- **Backend**: Java · Spring · MySQL
-- **Infraestrutura**: Google Cloud · Docker
-- **Frontend**: HTML · CSS · JS
+O Brasil Transparente busca:
 
----
+- Consolidar dados de todos os poderes da União em uma base unificada
+- Exibir apenas valores efetivamente pagos
+- Reduzir ruídos como refinanciamento da dívida e transferências intergovernamentais
+- Reclassificar despesas para permitir melhor compreensão do destino real dos recursos
+- Tornar os dados públicos mais acessíveis sem perder rigor técnico
 
-## 💬 Quer ajudar?
-
-- Temos um servidor no Discord para facilitar a comunicação:
-  👉 https://discord.gg/sQbf3bSzt4
-- Já existem algumas *issues* abertas em um projeto
-- Toda colaboração é bem-vinda, seja com código, revisão, design, testes, ou simplesmente dando feedback
+O foco é equilibrar clareza para o público geral e consistência metodológica para usuários técnicos.
 
 ---
 
-## 🤝 Contribua conosco
+## 🏛 Escopo Atual
 
-Este projeto teve seu início de forma individual, mas nosso objetivo é expandir e crescer com o apoio de uma comunidade colaborativa.  
-Se você acredita na importância da transparência pública, deseja aprimorar suas habilidades ou contribuir com o desenvolvimento de uma ferramenta útil para a sociedade, entre em contato conosco através do nosso Discord.
+O projeto atualmente contempla:
 
-Agradecemos seu interesse em fazer parte deste projeto!
+- Dados consolidados do último exercício disponível
+- Poder Executivo
+- Poder Legislativo
+- Poder Judiciário
+- Órgãos autônomos
+
+Os dados são estruturados de forma hierárquica:
+
+União → Poder → Órgão → Subórgão → Categoria de Despesa
+
+---
+
+## 📊 Metodologia (Resumo)
+
+O projeto considera apenas valores efetivamente pagos.
+
+São excluídos:
+
+- Refinanciamento da dívida
+- Transferências que não configuram gasto direto da União
+- Valores apenas empenhados ou liquidados
+
+Também há reclassificações específicas, como:
+
+- Consolidação de aposentadorias e pensões
+- Tratamento de precatórios e RPVs
+- Ajustes para evitar dupla contagem institucional
+
+A metodologia completa está documentada no site.
+
+---
+
+## 🗂 Origem dos Dados
+
+Os dados são obtidos exclusivamente de fontes oficiais, incluindo:
+
+- Portal da Transparência
+- Câmara dos Deputados
+- Senado Federal
+- Supremo Tribunal Federal
+- Conselho Nacional de Justiça
+- Tribunal de Contas da União
+- Ministério Público da União
+- Defensoria Pública da União
+
+Todos os datasets utilizados são públicos e verificáveis.
+
+---
+
+## 🔌 API Pública
+
+O projeto disponibiliza uma API pública com documentação Swagger para consulta programática dos dados consolidados.
+
+A API permite:
+
+- Consulta por poder
+- Consulta por ministério
+- Consulta por órgão
+- Consulta por despesa
+
+---
+
+## 🛠 Tecnologias
+
+### Backend
+- Java
+- Spring
+- MySQL
+
+### Frontend
+- Angular
+
+### Infraestrutura
+- Google Cloud
+- Docker
+
+---
+
+## 🚀 Roadmap
+
+Próximos passos planejados:
+
+- Expansão da série histórica
+- Documentação técnica detalhada do pipeline
+- Melhorias na exportação de dados
+- Aprimoramento da experiência para usuários
+
+---
+
+## 🤝 Como Contribuir
+
+O projeto é aberto a contribuições técnicas e não técnicas.
+
+Você pode ajudar com:
+
+- Backend
+- Frontend
+- Infraestrutura
+- Documentação
+- Testes
+- Revisão metodológica
+- Design
+- Feedback
+
+Servidor no Discord para coordenação da comunidade:
+
+👉 https://discord.gg/sQbf3bSzt4
+
+---
+
+## 📌 Princípios do Projeto
+
+- Transparência metodológica
+- Neutralidade política
+- Rigor técnico
+- Código aberto
+- Dados verificáveis
+
+---
+
+## 📬 Contato
+
+Para dúvidas técnicas, sugestões ou parcerias, utilize o servidor do Discord ou abra uma issue neste repositório.
