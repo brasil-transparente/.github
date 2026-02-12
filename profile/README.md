@@ -38,7 +38,7 @@ União → Poder → Órgão → Subórgão → Categoria de Despesa
 
 ---
 
-## 📊 Metodologia (Resumo)
+## 📊 Metodologia
 
 O projeto considera apenas valores efetivamente pagos.
 
