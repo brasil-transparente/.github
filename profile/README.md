@@ -34,7 +34,7 @@ O projeto atualmente contempla:
 
 Os dados são estruturados de forma hierárquica:
 
-União → Poder → Órgão → Subórgão → Categoria de Despesa
+Poder → Ministério → Órgão → Unidade Gestora → Despesa
 
 ---
 
